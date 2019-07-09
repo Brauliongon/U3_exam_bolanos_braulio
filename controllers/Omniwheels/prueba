@@ -1,0 +1,36 @@
+if((dis <= 0.17 && dis>dis_2 )&& stop_r == 0){
+ compare = encoder + (2.35619);
+ stop_r = 1;
+ }
+ if(stop_r == 1){
+ wb_motor_set_velocity
+ wb_motor_set_velocity
+
+ }
+ else{
+ wb_motor_set_velocity
+ wb_motor_set_velocity
+ wb_motor_set_velocity
+
+stop_r = 0;
+ }
+}
+if((dis_2 <= 0,17 && dis<dis_2) && stop_l ==0){
+
+ compare =encoder - (2.35619);
+ stop_l
+}
+
+if(stop_l == 1){
+wb_motor_set_velocity
+wb_motor_set_velocity
+wb_motor_set_velocity
+}
+else{
+wb_motor_set_velocity
+wb_motor_set_velocity
+wb_motor_set_velocity
+
+stop_l = 0;
+}
+}
